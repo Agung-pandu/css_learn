@@ -1,0 +1,10 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: green;
+}
+
+a{
+    color: inherit;
+    font-family: inherit;
+}
+/* jadi inherit adalah tag untuk pewarisan sifat sebagai contoh tag a tidak mewarisi sifat dari parent nya maka digunakan tag inherit untuk mewarisi tag nya */

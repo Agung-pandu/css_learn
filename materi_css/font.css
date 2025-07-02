@@ -1,0 +1,16 @@
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100px;
+    font-weight: normal;
+    font-variant: small-caps;
+    /* small caps buat hurus setelah hurus besar menjadi huruf kapital tapi ukuran kecil  */
+}
+
+p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 50px;
+    font-weight: bolder;
+    font-style: italic;
+    line-height: 100px;
+    /* line height adalah untuk mengatur jarak atau ketinggian dari teks */
+}

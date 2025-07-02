@@ -1,0 +1,12 @@
+.box {
+    width: 200px;
+    height: 100px;
+    overflow: hidden;
+}
+
+.borderfull{
+    width: 200px;
+    height: 200px;
+    border: 5px solid black;
+    margin-top: 40px;
+}

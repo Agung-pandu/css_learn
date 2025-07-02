@@ -1,0 +1,37 @@
+h1 , h2{
+    color: rgb(108, 13, 249);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+/* itu adalah cara pertama dalam selector denga tag yang sama yaitu dengan koma */
+
+ol li {
+    color: chartreuse;
+    font-size: 3em;
+}
+  
+
+ul li {
+    color: chocolate;
+    font-size: 3em;
+
+}
+/* itu adalah cara kedua jika dia memiliki parent yaitu dengan menaruh parent dan anak nya ul=parnt li=anak */
+
+#pantek{
+    color: antiquewhite;
+    font-size: 50px;
+    text-align: center;
+    text-decoration: underline;
+}
+/* disarakan untuk tidak menggunakan id jika menggunakan id maka pake # */
+.kampret {
+    color: fuchsia;
+    text-align: center;
+    font-size: 40px;
+}
+.ayam-goreng{
+    font-weight: bold;
+    font-style: oblique;
+}
+/* jika pake . maka berati class= 2 clas bisa dikombinasikan */

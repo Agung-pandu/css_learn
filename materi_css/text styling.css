@@ -1,0 +1,32 @@
+h1 {
+    color:violet;
+    background-color: black;
+    font-size: 120px;
+    text-align: justify center;
+    /* text-decoration: overline;
+    text-decoration: underline; */
+    text-decoration: line-through;
+    /* overline buat diatas , underline buat dibawah line through buat ditengah */
+    letter-spacing: 20px;
+}
+
+p{
+    color: black;
+    font-size: 30px;
+    background-color: none;
+    text-align: justify;
+    font-weight: bolder;
+    text-indent: 40px;
+    /* text indent buat  ngasih jarak atau menjorok ke tengah kayak paragraf */
+    text-transform: capitalize;
+    /* text-transform: lowercase;
+    text-transform: uppercase; */
+    /* text transofm lowercase untuk huruf kecil semua uppercase buat besar semua capitalize buat jadi capital depnnya*/
+    word-spacing: 20px; 
+}
+
+/* text decoration penghilangan garis bawah link */
+a {
+    text-decoration: none;
+}
+

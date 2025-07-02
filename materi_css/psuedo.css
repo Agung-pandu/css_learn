@@ -1,0 +1,45 @@
+.apalah:link{
+    color: green;
+    font-size: 50px;
+}
+/* ini uuntuk link yang belum dikunjungi */
+.apa:hover{
+    font-size: 30px;
+    font-weight: bolder;
+    font-style: italic;
+}
+/* ini untuk pada saat kursor ke arah tulisan atau sesuatu */
+.lah:active{
+    font-style: italic;
+    color: green;
+}
+/* ini untuk style aktif saat di klik */
+.apalahsik:visited{
+    text-decoration: none;
+    color: crimson;
+}
+/* ini untuk link yang sudah pernah dikunjungi */
+li:first-child:hover a{
+    color: yellow
+}
+/*first child digunakan untuk menamai tag anak yang pertama pada sebuah child dari parent */
+li:last-child a{
+    color: rgb(237, 100, 100);
+}
+/* last child digunakan untuk menamai tag anak yang terakhir pada sebuah child dari parent */
+/* PETUNJUK */
+/* JIKA ADA TAG DI DALAM CHILD TERSEBUT MAKA TARUH DIA DI SEHABIS TAG CHILD */
+li:nth-child(2) a{
+    color: orange;
+}
+/* nth-child adalah untuk memilih dia anak nomer brp */
+/* dalam kurung nth child bisa digunakan 2n atau berapa n,n disni berfungsi kelipatan,jadi jika 2n maka jadinya kelipatan 2 */
+
+p:first-of-type{
+    color: red;
+}
+
+p:last-of-type{
+    color: cadetblue;
+}
+/* first-of-type atau last-of-type digunakan untuk memilih tag yang pertama atau terakhir pada sebuah tag parent */

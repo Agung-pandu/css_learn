@@ -1,0 +1,37 @@
+.a1{
+    border-width: 5px;
+    border-style: solid;
+}
+
+.a2{
+    border-width: 5px;
+    border-style: double;
+}
+
+.a3{
+    border-width: 5px;
+    border-style: dashed;
+}
+
+.a4{
+    border-width: 5px;
+    border-style: dotted;
+}
+
+.a5{
+    border:5px solid blue;
+}
+
+.border{
+    width: 200px;
+    height: 300px;
+    border-left-style: solid ;
+    border-top-style: dashed;
+    border-bottom-style: double;
+    border-right-style: dotted;
+}
+.border2{
+    width: 200px;
+    height: 200px;
+    border: 5px solid black;
+}

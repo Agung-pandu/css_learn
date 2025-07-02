@@ -1,0 +1,36 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.auto{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    overflow: auto;
+    margin-right: 20px;
+    /* perbedaan auto dan scroll adalah jika scroll masih tetap ada jika teks sedikit sedangkn auto akan hilang */
+}
+
+.hidden{
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+    overflow: hidden;
+    margin-right: 20px;
+}
+
+.scroll{
+    width: 200px;
+    height: 200px;
+    background-color: cadetblue;
+    overflow: scroll;
+    margin-right: 20px;
+}
+
+.visible{
+    height: 200px;
+    width: 200px;
+    background-color: blueviolet;
+    overflow: visible;
+}

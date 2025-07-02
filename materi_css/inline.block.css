@@ -1,0 +1,25 @@
+h1{
+    display: inline;
+}
+
+p{
+    display: block;
+}
+
+ul li{
+    display: inline-block;
+    background-color: aqua;
+    width: 200px;
+    height: 200px;
+    margin: 4px;
+}
+
+input{
+    display: block;
+    margin-top: 4px;
+}
+
+a{
+    display: block;
+    margin: 4px;
+}
