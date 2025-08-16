@@ -1,0 +1,26 @@
+.kotak{
+    width: 200px;
+    height: 100px;
+    background-color: rgb(0, 42, 250);
+    margin: 20px auto;
+    transform: rotate(20deg);
+    /* deg itu derajat pada transform */
+}
+
+.kotak:hover{
+    /* transform: rotate(90deg); */
+    /* ini akan mengubah rotasi kotak */
+
+    /* transform: scale(1); */
+    /* ini akan mengubah ukuran menjadi 2 kali lipat dari ukuran aslinya */
+
+    /* transform: translate(-34px,30px); */
+    /* ini akan mengubah posisi kotak yang depan itu horizontal dan yang belakang itu vertikal */
+
+    transform: skew(4deg);
+    /* ini akan mengubah kotak bisa jadi jajar genjang coy */
+
+    transition: 1s;
+    /* transisition adalah untuk animasi agar lebih lmbut bjir */
+    background-color: black;
+}

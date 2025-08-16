@@ -1,0 +1,17 @@
+.animasi{
+    width: 200px;
+    height: 100px;
+    background-color: #ff0000;
+    margin: 20px auto ;
+    transition-duration: 5s;
+    transition-property: all;
+    transition-delay: 2s;
+    /* transition delat itu buat nunggu berapa lama baru dijaankan bioar tidak lansgung jalan bjir */
+    transition-timing-function: ease-in;
+}
+
+.animasi:hover{
+    width: 600px;
+    height: 300px;
+    background-color: burlywood;
+}

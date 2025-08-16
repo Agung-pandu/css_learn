@@ -1,0 +1,39 @@
+.container{
+    width: 500px;
+    height: 500px;
+    border: 3px solid #000;
+    margin: 50px auto;
+    display: flex;
+    /* (display fel ini adalah command yang penting untuk flexbox,command awalnya adalah menyamping) */
+    flex-wrap: wrap;
+    /* (flex-wrap ini adalah command untuk mengatur apakah flexbox akan menyamping atau turun ke bawah,wrap itu akan kebawah artinya dia tidak makasa muat ke samping seadngkan no wrap sebaliknyua dia akan 
+    ke samping,command nya bisa wrap reverse dll) */
+    /* flex-direction: row-reverse; */
+    /* (flex direcction adalah direksi arah antara row dan column bisa juga di reverse) */
+    justify-content: center;
+    /* (justify ccontent adalah untuk mengatur flex secara menyamping) */
+    align-items: center;
+    /* (align item adalah untuk mengatur flec secara vertikal) */
+    /* align-content: space-between; */
+    /* (align content adalah untuk mengatur flex secara vertikal jika ada lebih dari satu baris */
+}
+
+.box1,
+.box2,
+.box3,
+.box4{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(12, 12, 232);
+    margin: 5px;
+    color: white;
+}
+
+.box1{
+    order: 4;
+    /* ini untuk memindahkan tempat bahasa kasaranya */
+}
+
+.box2{
+    flex: 4;
+}
